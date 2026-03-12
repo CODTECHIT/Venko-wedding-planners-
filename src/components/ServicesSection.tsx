@@ -4,6 +4,7 @@ import venueImg from "@/assets/service-venue.jpg";
 import decorImg from "@/assets/service-decoration.jpg";
 import cateringImg from "@/assets/service-catering.jpg";
 import photoImg from "@/assets/service-photography.jpg";
+import gangaAartiImg from "@/assets/service-ganga-aarti.png";
 import heroImg from "@/assets/hero-wedding.jpg";
 
 const PHONE = "7382525028";
@@ -15,6 +16,7 @@ const services = [
   { title: "Decoration & Design", desc: "Breathtaking floral arrangements, lighting, and thematic decor that transform spaces into wonderlands.", img: decorImg },
   { title: "Catering Excellence", desc: "Curated multi-cuisine menus from top chefs. A culinary experience that delights every palate.", img: cateringImg },
   { title: "Photography & Film", desc: "Cinematic storytelling that captures the magic, the emotions, and the candid moments of your big day.", img: photoImg },
+  { title: "Ganga Aarti", desc: "A spiritual and mesmerizing ceremony on the banks of the holy Ganges, creating a divine atmosphere for your celebrations.", img: gangaAartiImg },
 ];
 
 const cardVariants = {

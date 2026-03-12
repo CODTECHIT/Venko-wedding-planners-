@@ -49,7 +49,7 @@ export const packages: Package[] = [
   },
   {
     id: 849, type: "Muhurat Package", price: 7259999, originalPrice: 7500000, pax: "1500 Muhurat Pax", image: pkg849,
-    includes: ["Mandap Decoration", "Haldi Decoration", "Dinner", "Traditional Photographer", "Candid Photo", "Drone", "Pre wedding shoot", "Bridal Makeup", "Light", "DJ", "Anchor", "Purohit", "Walk Path", "Sangeet Decoration", "Breakfast", "Lunch", "Traditional Videographer", "Candid Video", "Basic Album", "Entrance Name Board", "Sound", "Stage", "Photo Booth", "Venue", "Rooms"]
+    includes: ["Mandap Decoration", "Haldi Decoration", "Dinner", "Traditional Photographer", "Candid Photo", "Drone", "Pre wedding shoot", "Bridal Makeup", "Light", "DJ", "Anchor", "Purohit", "Walk Path", "Sangeet Decoration", "Breakfast", "Lunch", "Traditional Videographer", "Candid Video", "Basic Album", "Entrance Name Board", "Sound", "Stage", "Photo Booth", "Venue", "Rooms", "Ganga Aarti"]
   },
   {
     id: 852, type: "Reception Package", price: 537999, originalPrice: 585000, pax: "300 Reception Pax", image: pkg852,
@@ -65,7 +65,7 @@ export const packages: Package[] = [
   },
   {
     id: 855, type: "Muhurat Package", price: 14899999, originalPrice: 15800000, pax: "1500 Muhurat Pax", image: pkg855,
-    includes: ["Mandap Decoration", "Lunch", "Traditional Videographer", "Candid Photo", "Drone", "Pre wedding shoot", "Bridal Makeup", "Light", "Photo Booth", "Anchor", "Venue", "Purohit", "Sangeet Decoration", "Haldi Decoration", "Dinner", "Traditional Photographer", "Candid Video", "Basic Album", "Entrance Name Board", "Sound", "Stage", "DJ", "Honeymoon Package", "Rooms", "Walk Path", "Breakfast"]
+    includes: ["Mandap Decoration", "Lunch", "Traditional Videographer", "Candid Photo", "Drone", "Pre wedding shoot", "Bridal Makeup", "Light", "Photo Booth", "Anchor", "Venue", "Purohit", "Sangeet Decoration", "Haldi Decoration", "Dinner", "Traditional Photographer", "Candid Video", "Basic Album", "Entrance Name Board", "Sound", "Stage", "DJ", "Honeymoon Package", "Rooms", "Walk Path", "Breakfast", "Ganga Aarti"]
   },
   {
     id: 857, type: "Muhurat & Reception Package", price: 1154999, originalPrice: 1200000, pax: "700 Muhurat Pax / 400 Reception Pax", image: pkg857,

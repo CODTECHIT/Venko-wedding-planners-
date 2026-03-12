@@ -8,8 +8,8 @@ const Services = () => (
   <div className="min-h-screen bg-background">
     <SEOHead
       title="Wedding Planning Services | Decoration, Catering, Photography | Venko Wedding Planners"
-      description="Explore Venko's premium wedding services: venue selection, decoration, catering, photography, videography, bridal makeup, DJ & more. Serving Andhra Pradesh, Telangana, Bangalore & Chennai."
-      keywords="wedding decoration services, wedding catering, wedding photography Hyderabad, wedding venue selection, bridal makeup, wedding DJ, wedding videography, wedding services Andhra Pradesh Telangana Bangalore Chennai"
+      description="Explore Venko's premium wedding services: venue selection, decoration, catering, photography, videography, Ganga Aarti, bridal makeup, DJ & more. Serving Andhra Pradesh, Telangana, Bangalore & Chennai."
+      keywords="wedding decoration services, Ganga Aarti ceremony, wedding catering, wedding photography Hyderabad, wedding venue selection, bridal makeup, wedding DJ, wedding videography, wedding services Andhra Pradesh Telangana Bangalore Chennai"
       canonical="https://venkoweddingplanners.com/services"
     />
     <Navbar />
