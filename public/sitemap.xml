@@ -1,33 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://venkoweddingplanners.com/</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://venkoweddingplanners.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venkoweddingplanners.com/"/>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/og-image.jpg</image:loc>
+      <image:title>Venko Wedding Planners - Premium Wedding Services</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://venkoweddingplanners.com/about</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://venkoweddingplanners.com/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venkoweddingplanners.com/about"/>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/assets/about-wedding.jpg</image:loc>
+      <image:title>About Venko Wedding Planners - Our Team</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://venkoweddingplanners.com/services</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://venkoweddingplanners.com/services"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venkoweddingplanners.com/services"/>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/assets/service-decoration.jpg</image:loc>
+      <image:title>Wedding Decoration Services</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/assets/service-catering.jpg</image:loc>
+      <image:title>Wedding Catering Services</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/assets/service-photography.jpg</image:loc>
+      <image:title>Wedding Photography Services</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://venkoweddingplanners.com/packages</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://venkoweddingplanners.com/packages"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venkoweddingplanners.com/packages"/>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/assets/pkg-muhurat.jpg</image:loc>
+      <image:title>Muhurat Wedding Package</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/assets/pkg-reception.jpg</image:loc>
+      <image:title>Reception Wedding Package</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://venkoweddingplanners.com/assets/resort-wedding.png</image:loc>
+      <image:title>Resort Wedding Package</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://venkoweddingplanners.com/testimonials</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://venkoweddingplanners.com/testimonials"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venkoweddingplanners.com/testimonials"/>
   </url>
   <url>
     <loc>https://venkoweddingplanners.com/contact</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://venkoweddingplanners.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://venkoweddingplanners.com/contact"/>
   </url>
 </urlset>

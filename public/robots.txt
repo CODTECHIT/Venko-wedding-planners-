@@ -1,16 +1,84 @@
+# Robots.txt for Venko Wedding Planners
+# https://venkoweddingplanners.com
+
+# Allow all major search engines
 User-agent: Googlebot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
 
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /admin/
+
+# Google Video Bot
+User-agent: Googlebot-Video
+Allow: /
+Disallow: /admin/
+
+# Google News Bot
+User-agent: Googlebot-News
+Allow: /
+Disallow: /admin/
+
+# Bing Bot
 User-agent: Bingbot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
 
+# Yahoo Slurp
+User-agent: Slurp
+Allow: /
+Disallow: /admin/
+
+# Yandex Bot
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+
+# DuckDuckBot
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /admin/
+
+# Twitterbot
 User-agent: Twitterbot
 Allow: /
+Disallow: /admin/
 
+# Facebook External Hit
 User-agent: facebookexternalhit
 Allow: /
+Disallow: /admin/
 
+# Applebot
+User-agent: Applebot
+Allow: /
+Disallow: /admin/
+
+# Discordbot
+User-agent: Discordbot
+Allow: /
+Disallow: /admin/
+
+# Telegram Bot
+User-agent: TelegramBot
+Allow: /
+Disallow: /admin/
+
+# Default policy for all other bots
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*?
 
+# Sitemap location
 Sitemap: https://venkoweddingplanners.com/sitemap.xml
+
+# Crawl-delay for polite crawling (optional - remove if you want faster crawling)
+# Crawl-delay: 1
