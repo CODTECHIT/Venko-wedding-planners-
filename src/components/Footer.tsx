@@ -44,7 +44,9 @@ const Footer = () => (
           <div className="space-y-6">
             {CONTACT_NUMBERS.map((number, index) => (
               <div key={number} className="space-y-2 group">
-                <p className="text-[10px] uppercase tracking-[0.2em] text-primary/60 font-semibold mb-1">Office Contact {index + 1}</p>
+                <p className="text-[10px] uppercase tracking-[0.2em] text-primary/60 font-semibold mb-1">
+                  {CONTACT_NUMBERS.length > 1 ? `Office Contact ${index + 1}` : "Office Contact"}
+                </p>
                 <a href={`tel:+91${number}`} className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors text-sm sm:text-lg font-medium">
                   <Phone className="w-4 h-4 text-primary flex-shrink-0" /> +91 {number}
                 </a>

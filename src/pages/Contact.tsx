@@ -11,7 +11,7 @@ const Contact = () => (
   <div className="min-h-screen bg-background">
     <SEOHead
       title={`Contact Venko Wedding Planners | Call +91 ${CONTACT_NUMBERS.join(" / ")} | AP, Telangana, Bangalore, Chennai`}
-      description={`Contact Venko Wedding Planners for your dream wedding. Call +91 ${CONTACT_NUMBERS[0]} or +91 ${CONTACT_NUMBERS[1]}. We serve Andhra Pradesh, Telangana, Hyderabad, Bangalore & Chennai.`}
+      description={`Contact Venko Wedding Planners for your dream wedding. Call +91 ${CONTACT_NUMBERS.join(" or +91 ")}. We serve Andhra Pradesh, Telangana, Hyderabad, Bangalore & Chennai.`}
       keywords="contact wedding planner, wedding planner phone number, Venko Wedding Planners contact, wedding planner Hyderabad contact, book wedding planner South India"
       canonical="https://venkoweddingplanners.com/contact"
     />
@@ -32,7 +32,7 @@ const Contact = () => (
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className={CONTACT_NUMBERS.length === 1 ? "max-w-xl mx-auto" : "grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto"}>
           {CONTACT_NUMBERS.map((number, index) => (
             <motion.div
               key={number}
@@ -50,7 +50,9 @@ const Contact = () => (
                 </div>
                 
                 <div className="space-y-2">
-                  <p className="text-primary text-xs uppercase tracking-widest font-medium">Contact Option {index + 1}</p>
+                  <p className="text-primary text-xs uppercase tracking-widest font-medium">
+                    {CONTACT_NUMBERS.length > 1 ? `Contact Option ${index + 1}` : "Phone & WhatsApp"}
+                  </p>
                   <h3 className="font-display text-2xl sm:text-3xl text-gradient-gold">+91 {number}</h3>
                   <p className="text-muted-foreground text-sm max-w-xs mx-auto">Available for calls and direct messaging for immediate wedding planning assistance.</p>
                 </div>
