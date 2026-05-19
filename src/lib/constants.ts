@@ -1,3 +1,4 @@
+// Venko Wedding Planners - Constants Configuration
 export const CONTACT_NUMBERS = ["7382525028"];
 export const PRIMARY_PHONE = CONTACT_NUMBERS[0];
 
